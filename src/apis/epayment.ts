@@ -86,6 +86,7 @@ export const ePaymentRequestFactory = {
     return {
       url: `/epayment/v1/payments/${reference}/cancel`,
       method: "POST",
+      body: {},
       token,
     };
   },
